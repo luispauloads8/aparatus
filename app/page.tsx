@@ -22,8 +22,8 @@ export default async function Home() {
   return (
     <div>
       <Header />
-      <QuickSearch />
       <PageContainer>
+        <QuickSearch />
         <Image
           src={banner}
           alt="Agende nos melhores com a Aparatus"
